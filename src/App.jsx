@@ -10,6 +10,7 @@ function App() {
     <>
       <SignUpForm setToken={setToken} token={token}/>
       <Authenticate token={token} setToken={setToken}/>
+      
     </>
   )
 }
